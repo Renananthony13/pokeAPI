@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/pokeball.png">
+
+    <title>Poke API</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <header id="topo">
+            <ul class="lista-header">
+                <li><img src="./assets/img/pokeapi.png" alt="" class="pokeapi-img"></li>
+                <li><img src="./assets/img/pokeball.png" alt="" class="pokebola-img"></li>
+            </ul>
+            <div class="line"></div>
+        </header>
+        
+    
+        <main id="conteudo">
+            <div class="pesquisa">
+                <input type="text" name="pesquisa" placeholder="Procure por um pokemon" class="input-pesquisa">
+            </div>
+            <div class="container-pokemon">
+
+                <div class="caixa-um">
+                    <div class="conteudo-caixa1">
+                        <h1>Sotear um <br> pokemon <br> aleatorio</h1>
+                        <div class="pokebola">
+                            <!-- <img src="./assets/img/pokeball.png" alt="" class="teste"> -->
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="caixa-dois">
+                    <div class="lista-pokemons">
+                        <div class="line-dois">
+                            <div class="ponta-um"></div>
+                            <div class="ponta-dois"></div>
+                        </div>
+                        <div class="tabela-pokemons">
+                            <ul class="devolve-pokemons" data-js="pokedex">
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+    
+
+
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
