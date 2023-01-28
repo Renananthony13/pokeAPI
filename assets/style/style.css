@@ -112,7 +112,7 @@ li{
 
 
 /* pokebola */
-.pokebola {
+/* .pokebola {
     width: 150px;
 	height: 150px;
 	display:inline-block;
@@ -159,7 +159,7 @@ li{
 @-moz-keyframes shak{
       0%,100%{ -moz-transform:rotate(-10deg);}
       50%{-moz-transform:rotate(10deg);}
-}
+} */
 
 /* ---------------------- */
 
